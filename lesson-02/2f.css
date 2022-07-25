@@ -1,0 +1,43 @@
+.link-to-amazon {
+  font-size: 25px;
+  color: rgb(0, 113, 133);
+}
+
+.product {
+  font-size: 40px;
+  font-weight: bold;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.price {
+  font-size: 25px;
+  font-weight: bold;
+  color: rgb(0, 118, 0);
+}
+
+.delivery {
+  font-size: 25px;
+}
+
+.add-to-cart {
+  font-size: 20px;
+  height: 40px;
+  width: 170px;
+  background-color: rgb(255, 216, 20);
+  border-radius: 20px;
+  border:none;
+  margin-top: 20px;
+  margin-right: 20px;
+  cursor: pointer;
+}
+
+.buy-now {
+  font-size: 20px;
+  height: 40px;
+  width: 170px;
+  background-color: rgb(255, 164, 28);
+  border-radius: 20px;
+  border: none;
+  cursor: pointer;
+}
