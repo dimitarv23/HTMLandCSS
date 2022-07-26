@@ -1,0 +1,55 @@
+.get-started {
+  font-size: 20px;
+  font-weight: bold;
+  color: white;
+  height: 50px;
+  width: 150px;
+  background-color: rgb(121, 82, 179);
+  border-radius: 3px;
+  border: none;
+  margin-top: 20px;
+  margin-right: 10px;
+  cursor: pointer;
+
+  transition: opacity 0.15s,
+  box-shadow 0.15s;
+}
+
+.get-started:hover {
+  box-shadow: 3px 5px 10px rgba(0, 0, 0, 0.3);
+  opacity: 0.9;
+}
+
+.get-started:active {
+  opacity: 0.7;
+}
+
+.download {
+  font-size: 20px;
+  font-weight: bold;
+  color: rgb(108, 117, 125);
+  height: 50px;
+  width: 150px;
+  background-color: white;
+  border-color: rgb(108, 117, 125);
+  border-style: solid;
+  border-width: 1.7px;
+  border-radius: 3px;
+  margin-top: 20px;
+  cursor: pointer;
+
+  transition: box-shadow 0.15s,
+  background-color 0.15s,
+  color 0.15s,
+  opacity 0.15s;
+}
+
+.download:hover {
+  box-shadow: 3px 5px 10px rgba(0, 0, 0, 0.3);
+  background-color: rgb(108, 117, 125);
+  color: white;
+}
+
+.download:active {
+  opacity: 0.8;
+}
