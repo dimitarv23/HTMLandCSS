@@ -1,0 +1,22 @@
+.subscribe-button {
+  background-color: rgb(204, 0, 0);
+  color: white;
+  font-size: 14px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 16px;
+  padding-right: 16px;
+  border-radius: 2px;
+  border: none;
+  cursor: pointer;
+
+  transition: opacity 0.15s;
+}
+
+.subscribe-button:hover {
+  opacity: 0.8;
+}
+
+.subscribe-button:active {
+  opacity: 0.6;
+}
