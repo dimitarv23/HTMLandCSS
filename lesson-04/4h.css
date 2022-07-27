@@ -1,0 +1,14 @@
+button {
+  font-size: 25px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-right: 6px;
+  padding-left: 6px;
+  margin-top: 50px;
+  margin-left: 20px;
+}
+
+a {
+  font-size: 25px;
+  margin-left: 20px;
+}
