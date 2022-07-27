@@ -1,0 +1,58 @@
+.apply {
+  background-color: rgb(10, 102, 194);
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  padding-top: 13.5px;
+  padding-bottom: 13.5px;
+  padding-right: 31px;
+  padding-left: 31px;
+  border-radius: 25px;
+  border: none;
+  margin-top: 20px;
+  margin-right: 10px;
+  cursor: pointer;
+
+  transition: box-shadow 0.15s,
+  background-color 0.15s,
+  color 0.15s,
+  opacity 0.15s;
+}
+
+.apply:hover {
+  box-shadow: 3px 5px 10px rgba(0, 0, 0, 0.2);
+  background-color: rgb(14, 74, 133);
+}
+
+.apply:active {
+  opacity: 0.8;
+}
+
+.save {
+  color: rgb(10, 102, 194);
+  background-color: white;
+  font-weight: bold;
+  font-size: 20px;
+  padding-top: 11.5px;
+  padding-bottom: 11.5px;
+  padding-right: 34.5px;
+  padding-left: 34.5px;
+  border-color: rgb(10, 102, 194);
+  border-style: solid;
+  border-width: 2px;
+  border-radius: 25px;
+  margin-top: 20px;
+  cursor: pointer;
+
+  transition: box-shadow 0.15s,
+  opacity 0.15s;
+}
+
+.save:hover {
+  box-shadow: 3px 5px 10px rgba(0, 0, 0, 0.2);
+  border-width: 3px;
+}
+
+.save:active {
+  opacity: 0.7;
+}
