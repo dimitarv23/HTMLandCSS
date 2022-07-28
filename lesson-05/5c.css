@@ -1,0 +1,49 @@
+p {
+  font-family: Verdana;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.title {
+  font-size: 28px;
+  font-weight: bold;
+  margin-bottom: 6px;
+}
+
+.level {
+  font-size: 24px;
+  color: rgb(98, 98, 98);
+  margin-bottom: 30px;
+}
+
+.description {
+  font-size: 24px;
+  width: 450px;
+  margin-bottom: 30px;
+}
+
+.get-started-button {
+  background-color: rgb(73, 157, 25);
+  font-size: 24px;
+  color: white;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-right: 20px;
+  padding-left: 20px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+
+  transition: box-shadow 0.2s;
+}
+
+.get-started-button:hover {
+  box-shadow: 4px 5px 5px rgba(0, 0, 0, 0.2);
+}
+
+.get-started-button:active {
+  box-shadow: none;
+  margin-left: 3px;
+  margin-top: 3px;
+  opacity: 0.8;
+}
