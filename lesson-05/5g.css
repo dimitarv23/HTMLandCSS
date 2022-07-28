@@ -1,0 +1,29 @@
+p {
+  font-family: Arial;
+  font-size: 20px;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.profile {
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+
+.username {
+  font-weight: normal;
+  color: grey;
+}
+
+.message-1 {
+  margin-bottom: 20px;
+}
+
+.tagged {
+  color: rgb(0, 149, 255);
+}
+
+.tagged:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
