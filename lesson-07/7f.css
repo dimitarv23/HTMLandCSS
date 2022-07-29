@@ -1,0 +1,47 @@
+p {
+  font-family: Arial;
+  color: rgb(107, 107, 107);
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.email {
+  font-size: 16px;
+  margin-bottom: 6px;
+}
+
+.search-bar {
+  width: 345px;
+}
+
+.search-bar:focus {
+  outline: none;
+}
+
+.terms {
+  font-size: 14px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.agree-and-join {
+  font-size: 18px;
+  background-color: rgb(45, 121, 235);
+  color: white;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-right: 125px;
+  padding-left: 125px;
+  border: none;
+  border-radius: 50px;
+
+  transition: box-shadow 0.2s;
+}
+
+.agree-and-join:hover {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+}
+
+.agree-and-join:active {
+  opacity: 0.8;
+}
