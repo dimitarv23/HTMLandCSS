@@ -1,0 +1,56 @@
+.message {
+  font-family: Arial;
+  font-size: 36px;
+  margin-bottom: 25px;
+}
+
+.textbox {
+  background-color: rgb(240, 240, 240);
+  color: rgb(112, 111, 111);
+  font-size: 16px;
+  font-weight: 600;
+  width: 300px;
+  height: 15px;
+  padding: 15px;
+  border: none;
+  display: block;
+
+  margin-top: 10px;
+}
+
+input:focus {
+  outline: none;
+}
+
+button {
+  font-size: 16px;
+  font-weight: 600;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border: none;
+  margin-top: 35px;
+  margin-right: 12px;
+  cursor:pointer;
+
+  transition: box-shadow 0.2s;
+}
+
+button:hover {
+  box-shadow: 3px 4px 10px rgba(0, 0, 0, 0.4);
+}
+
+button:active {
+  opacity: 0.8;
+}
+
+.request-now-btn {
+  background-color: black;
+  color: white;
+  padding-right: 20px;
+  padding-left: 20px;
+}
+
+.schedule-btn {
+  padding-right: 20px;
+  padding-left: 20px;
+}
