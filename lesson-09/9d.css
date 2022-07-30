@@ -1,0 +1,23 @@
+.yt-music {
+  font-family: Arial;
+  width: 370px;
+  background-color: rgb(76, 72, 72);
+  padding: 20px;
+}
+
+p {
+  margin: 0;
+}
+
+.title {
+  font-size: 24px;
+  font-weight: bold;
+  color: white;
+  margin-bottom: 15px;
+}
+
+.message {
+  font-size: 16px;
+  color: rgb(195, 192, 192);
+  
+}
