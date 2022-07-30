@@ -1,0 +1,17 @@
+.feedback {
+  display: inline-block;
+  width: 300px;
+  padding: 20px;
+  border: solid;
+  border-width: 1px;
+}
+
+.question {
+  font-size: 18px;
+  margin: 0;
+  margin-bottom: 15px;
+}
+
+.answer-btn {
+  font-size: 18px;
+}
