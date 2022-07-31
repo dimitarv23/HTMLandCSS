@@ -1,0 +1,77 @@
+p {
+  font-family: Arial;
+  white-space: nowrap;
+  overflow: hidden;
+  margin: 0;
+}
+
+.profiles-grid {
+  display: grid;
+  grid-template-columns: 200px 200px 200px;
+  column-gap: 20px;
+}
+
+.profile {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+  display: grid;
+  grid-template-rows: 200px 120px;
+}
+
+.profile-pic {
+  width: 200px;
+  height: 200px;
+}
+
+.profile-info-grid {
+  padding: 10px;
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr;
+  row-gap: 4px;
+}
+
+.username {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.mutual-friends-grid {
+  display: grid;
+  grid-template-columns: 30px 1fr;
+  column-gap: 8px;
+  align-items: center;
+}
+
+.mutual-friend-profile-picture {
+  width: 100%;
+  border-radius: 15px;
+}
+
+.mutual-friends {
+  font-size: 14px;
+  color: rgb(103, 102, 102);
+}
+
+.add-friend {
+  width: 65%;
+  font-size: 16px;
+  background-color: rgb(37, 123, 235);
+  color: white;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-right: 18px;
+  padding-left: 18px;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  margin-top: 10px;
+
+  transition: box-shadow 0.15s;
+}
+
+.add-friend:hover {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+}
+
+.add-friend:active {
+  opacity: 0.8;
+}
