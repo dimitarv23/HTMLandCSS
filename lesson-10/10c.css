@@ -1,0 +1,43 @@
+p {
+  font-family: Arial;
+  margin: 0;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+.video-container {
+  margin-top: 15px;
+}
+
+.thumbnail-container {
+  vertical-align: middle;
+  display: inline-block;
+  width: 168px;
+  height: 94px;
+}
+
+.video-info-container {
+  width: 300px;
+  vertical-align: top;
+  display: inline-block;
+  margin-left: 10px;
+}
+
+.video-title {
+  color: black;
+  font-size: 16px;
+  font-weight: bold;
+  margin-top: 4px;
+  margin-bottom: 6px;
+}
+
+.channel-name {
+  color: rgb(97, 97, 97);
+  margin-bottom: 4px;
+}
+
+.video-stats {
+  color: rgb(97, 97, 97);
+}
