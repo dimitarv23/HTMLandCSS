@@ -1,0 +1,72 @@
+p {
+  font-family: Arial;
+  margin: 0;
+}
+
+.header {
+  display: flex;
+  flex-direction: row;
+  background-color: rgb(124, 64, 226);
+  align-items: center;
+  justify-content: space-between;
+  column-gap: 50px;
+  padding: 12px;
+}
+
+.home-menu {
+  font-size: 18px;
+  color: white;
+  width: 70px;
+  font-weight: 600;
+  text-align: center;
+  cursor: pointer;
+}
+
+.home-menu:active {
+  opacity: 0.8;
+}
+
+.search-bar {
+flex: 1;
+max-width: 500px;
+border: none;
+border-radius: 20px;
+font-size: 16px;
+font-weight: 600;
+padding-top: 6px;
+padding-bottom: 6px;
+padding-right: 20px;
+padding-left: 20px;
+box-shadow: 0 0 7px rgba(0, 0, 0, 0.3);
+}
+
+.search-bar:focus {
+  outline: none;
+}
+
+.download {
+  background-color: transparent;
+  color: white;
+  font-weight: 600;
+  border-color: white;
+  border-radius: 5px;
+  border-style: solid;
+  border-width: 1px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 20px;
+  padding-right: 20px;
+  cursor: pointer;
+
+  transition: background-color 0.15s, 
+  color 0.15s;
+}
+
+.download:hover {
+background-color: white;
+color: rgb(124, 64, 226);
+}
+
+.download:active {
+opacity: 0.8;
+}
