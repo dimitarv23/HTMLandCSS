@@ -1,0 +1,66 @@
+p{
+  font-family: Arial;
+  margin: 0;
+}
+
+.inbox {
+  box-shadow: 0 0 7px rgba(0, 0, 0, 0.4);
+  padding-top: 10px;
+  padding-bottom: 22px;
+  padding-right: 22px;
+  padding-left: 18px;
+  border-radius: 5px;
+  width: 400px;
+}
+
+.all-inboxes {
+  color: rgb(142, 142, 142);
+  font-size: 14px;
+}
+
+.dm {
+  display: flex;
+  column-gap: 12px;
+  align-items: center;
+  margin-top: 24px;
+  justify-content: space-between;
+}
+
+.profile-picture {
+  height: 55px;
+  width: 55px;
+  border-radius: 30px;
+  object-fit: cover;
+}
+
+.message-container {
+  flex: 1;
+}
+
+.username-time-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.username {
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.time {
+  color: rgb(142, 142, 142);
+  font-size: 14px;
+}
+
+.bio {
+  font-weight: bold;
+  font-size: 16px;
+  margin-top: 4px;
+}
+
+.message {
+  color: rgb(142, 142, 142);
+  font-size: 16px;
+  margin-top: 4px;
+}
