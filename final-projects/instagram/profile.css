@@ -1,0 +1,106 @@
+.profile {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+}
+
+.profile-picture-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 400px;
+  height: 200px;
+}
+
+.profile-picture {
+  width: 150px;
+  border-radius: 75px;
+  margin-top: 20px;
+  cursor: pointer;
+}
+
+.profile-stats {
+  display: grid;
+  grid-template-rows: 50px 50px 1fr;
+  row-gap: 10px;
+}
+
+.username-container {
+  display: flex;
+  height: 45px;
+  column-gap: 20px;
+  align-items: end;
+}
+
+.username {
+  font-size: 24px;
+}
+
+.edit-profile-btn {
+  background-color: white;
+  font-size: 16px;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  padding-right: 8px;
+  padding-left: 8px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: rgb(210, 210, 210);
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.edit-profile-btn:active {
+  opacity: 0.6;
+}
+
+.settings-icon {
+  height: 24px;
+  width: 24px;
+  padding-bottom: 2px;
+  cursor: pointer;
+}
+
+.settings-icon:active {
+  opacity: 0.6;
+}
+
+.activity-container {
+  display: flex;
+  column-gap: 30px;
+  align-items: center;
+}
+
+.posts-count,
+.followers-count,
+.following-count {
+  font-size: 18px;
+}
+
+.posts-span {
+  font-weight: 500;
+}
+
+.stats {
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.stats:active {
+  opacity: 0.6;
+}
+
+.profile-bio {
+  display: grid;
+  row-gap: 4px;
+}
+
+.name {
+  font-size: 18px;
+  font-weight: 500;
+}
+
+@media (max-width: 1000px) {
+  .profile-picture-container {
+    width: 300px;
+  }
+}
