@@ -1,0 +1,407 @@
+/* common styles start */
+body {
+    font-family: 'Inter', sans-serif;
+}
+
+.btn {
+    border-radius: 8px;
+    cursor: pointer;
+    border: none;
+}
+
+.btn-primary {
+    color: black;
+    background-color: rgb(173 226 223);
+    border: 1px solid rgb(173 226 223);
+    transition: background-color 0.4s, border 0.4s;
+}
+
+    .btn-primary:hover {
+        background-color: white;
+    }
+
+.btn-secondary {
+    color: black;
+    background-color: white;
+    border: 1px solid white;
+    transition: background-color 0.4s, border 0.4s;
+}
+
+    .btn-secondary:hover {
+        background-color: rgb(173 226 223);
+        border: 1px solid rgb(173 226 223);
+    }
+
+
+.brands-btn {
+    color: white;
+    background-color: black;
+    border: 1px solid black;
+    padding: 24px 38px;
+    font-size: 20px;
+    transition: background-color 0.4s, border 0.4s;
+}
+
+    .brands-btn:hover {
+        background-color: white;
+        color: black;
+    }
+
+.vertical-line {
+    border-left: 2px solid rgb(220, 220, 220);
+    height: 250px;
+    margin: 0 18px;
+}
+
+.horizontal-line {
+    border-top: 1px solid rgb(220, 220, 220);
+    width: 100%;
+    margin: 18px 0;
+}
+/* common styles end */
+
+/* header styles end */
+header {
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 44px 11vw;
+}
+
+    header .links-container {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+        header .links-container {
+            min-width: 420px;
+            width: 35%;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+            header .links-container p {
+                font-size: 20px;
+                cursor: pointer;
+            }
+
+    header .buttons-container {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+        header .buttons-container button {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 12px 28px;
+            font-size: 18px;
+        }
+/* header styles end */
+
+/* title section styles start */
+.title-section {
+    width: 100%;
+    background-color: rgb(173 226 223);
+    padding: 12vh 5vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    row-gap: 28px;
+}
+
+    .title-section h1 {
+        font-size: 76px;
+        font-weight: 600;
+        line-height: 80px;
+    }
+
+    .title-section p {
+        font-size: 22px;
+    }
+
+    .title-section .buttons-container {
+        display: flex;
+        column-gap: 12px;
+        margin-top: 18px;
+    }
+/* title section styles end */
+
+/* features section styles start */
+.section-features {
+    padding: 10vh 11vw;
+    display: flex;
+}
+
+    .section-features .feature-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        row-gap: 24px;
+        padding-top: 8px;
+    }
+
+        .section-features .feature-container h1 {
+            font-size: 42px;
+            font-weight: 600;
+        }
+
+        .section-features .feature-container p {
+            font-size: 22px;
+        }
+/* features section styles end */
+
+/* how it works section styles start */
+.section-how-it-works {
+    background-color: rgb(173 226 223);
+    padding: 0 15vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 7vw;
+}
+
+    .section-how-it-works img {
+        border: 2px dashed rgb(180, 180, 180);
+        padding: 0 32px;
+    }
+
+    .section-how-it-works .description-container {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: space-between;
+        width: 50%;
+        row-gap: 8px;
+    }
+
+        .section-how-it-works .description-container h1 {
+            font-size: 48px;
+            line-height: 62px;
+            margin-bottom: 28px;
+        }
+
+        .section-how-it-works .description-container h3 {
+            font-size: 22px;
+        }
+
+        .section-how-it-works .description-container p {
+            font-size: 20px;
+            margin-bottom: 28px;
+        }
+
+        .section-how-it-works .description-container .link {
+            border-bottom: 1px solid black;
+            cursor: pointer;
+        }
+/* how it works section styles end */
+
+/* pricing section styles start */
+.section-pricing {
+    background-color: rgb(243 245 250);
+    padding: 6vh 0;
+    display: flex;
+    flex-direction: column;
+    row-gap: 15vh;
+}
+
+    .section-pricing .title-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        row-gap: 32px;
+    }
+
+        .section-pricing .title-container .label {
+            background-color: rgb(173 226 223);
+            padding: 6px 18px;
+            border-radius: 8px;
+            font-size: 20px;
+        }
+
+        .section-pricing .title-container h1 {
+            font-size: 48px;
+            font-weight: 600;
+            line-height: 62px;
+        }
+
+    .section-pricing .table {
+        border: 1px solid rgb(220, 220, 220);
+        border-radius: 24px;
+        width: 100%;
+        display: flex;
+    }
+
+        .section-pricing .table h2 {
+            text-align: center;
+            font-size: 26px;
+            font-weight: 600;
+        }
+
+        .section-pricing .table p {
+            font-size: 18px;
+            margin-bottom: 12px;
+        }
+
+        .section-pricing .table .prices-container {
+            width: 60%;
+            border-top-left-radius: 24px;
+            border-bottom-left-radius: 24px;
+            background-color: white;
+            padding: 32px 38px;
+            display: flex;
+        }
+
+            .section-pricing .table .prices-container .price-box {
+                display: flex;
+                flex-direction: column;
+                width: 30%;
+            }
+
+                .section-pricing .table .prices-container .price-box .horizontal-line {
+                    margin: 28px 0;
+                }
+
+                .section-pricing .table .prices-container .price-box .subtitle {
+                    font-size: 20px;
+                    margin: 0;
+                }
+
+                .section-pricing .table .prices-container .price-box h1 {
+                    font-size: 52px;
+                    font-weight: 600;
+                    margin-top: 24px;
+                }
+
+                    .section-pricing .table .prices-container .price-box h1 span {
+                        font-size: 20px;
+                        font-weight: normal;
+                    }
+
+                .section-pricing .table .prices-container .price-box button {
+                    align-self: center;
+                    padding: 24px;
+                    font-size: 20px;
+                    font-weight: 500;
+                    width: 90%;
+                    min-width: 130px;
+                    margin-top: 42px;
+                }
+
+        .section-pricing .table .prices-container .vertical-line {
+            margin: 0 28px;
+            border-left: 1px solid rgb(220, 220, 220);
+            height: 100%;
+        }
+
+        .section-pricing .table .description-container {
+            width: 40%;
+            background-color: rgb(173 226 223);
+            border-top-right-radius: 20px;
+            border-bottom-right-radius: 20px;
+            padding: 32px 38px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+        }
+
+            .section-pricing .table .description-container .subheading {
+                font-size: 28px;
+                font-weight: 500;
+                text-align: start;
+                margin-bottom: 32px;
+            }
+
+            .section-pricing .table .description-container p {
+                font-size: 20px;
+            }
+
+            .section-pricing .table .description-container button {
+                background-color: black;
+                color: white;
+                border: 1px solid black;
+                align-self: center;
+                padding: 24px;
+                font-size: 20px;
+                font-weight: 500;
+                width: 95%;
+                min-width: 130px;
+                cursor: pointer;
+                transition: background-color 0.4s, border 0.4s;
+            }
+
+                .section-pricing .table .description-container button:hover {
+                    background-color: white;
+                    color: black;
+                }
+/* pricing section styles end */
+
+/* get started section styles start */
+.section-get-started {
+    width: 100%;
+    background-color: rgb(173 226 223);
+    padding: 12vh 5vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    row-gap: 8px;
+}
+
+    .section-get-started h1 {
+        font-size: 76px;
+        font-weight: 600;
+        line-height: 80px;
+    }
+
+    .section-get-started p {
+        font-size: 24px;
+    }
+
+    .section-get-started .buttons-container {
+        display: flex;
+        column-gap: 12px;
+        margin-top: 18px;
+    }
+/* get started section styles end */
+
+/* footer section styles start */
+footer {
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 32px 5vw;
+}
+
+    footer p {
+        font-size: 24px;
+    }
+
+    footer .icons-container {
+        display: flex;
+        column-gap: 24px;
+    }
+
+        footer .icons-container i {
+            font-size: 18px;
+            cursor: pointer;
+        }
+
+        footer .icons-container .fa-instagram {
+            background-color: black; 
+            color: white; 
+            padding: 1px 2px;
+        }
+/* footer section styles end */
