@@ -1,0 +1,86 @@
+body {
+    font-family: 'Inter', sans-serif;
+    background-color: rgb(217 217 217);
+    padding: 72px 5%;
+}
+
+.enterprises {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 700px;
+}
+
+.enterprise {
+    box-shadow: 3px 3px 10px 1px rgba(0, 0, 0, 0.2);
+    height: 100%;
+    width: 32%;
+    display: flex;
+    flex-direction: column;
+}
+
+.enterprise .image {
+    width: 100%;
+    height: 45%;
+    object-fit: cover;
+}
+
+.enterprise .info-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 32px;
+    height: 55%;
+}
+
+.enterprise .info-box .title-box {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.enterprise .info-box .title-box .subtitle {
+    font-size: 20px;
+    color: rgb(90, 90, 90);
+}
+
+.enterprise .info-box .title-box .title {
+    font-weight: normal;
+    font-size: 30px;
+}
+
+.enterprise .info-box .description {
+    color: rgb(80, 80, 80);
+    font-size: 20px;
+}
+
+.enterprise .info-box .footer-box {
+    border-top: 1px solid black;
+    padding-top: 14px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.enterprise .info-box .footer-box .author {
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
+}
+
+.enterprise .info-box .footer-box .author .icon {
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    object-fit: cover;
+}
+
+.enterprise .info-box .footer-box .author .name {
+    font-size: 20px;
+    font-weight: 300;
+}
+
+.enterprise .info-box .footer-box .time {
+    color: rgb(150, 150, 150);
+    font-size: 20px;
+}
