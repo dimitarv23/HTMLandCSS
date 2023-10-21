@@ -1,0 +1,345 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.btn {
+    border-radius: 8px;
+    cursor: pointer;
+    transition: color 0.5s,
+        background-color 0.5s;
+}
+
+    .btn:active {
+        transform: translateY(1px) translateX(1px);
+    }
+
+.btn-white {
+    background-color: white;
+    border: 1px solid black;
+    color: black;
+}
+
+    .btn-white:hover {
+        background-color: black;
+        color: white;
+    }
+
+.btn-black {
+    background-color: black;
+    border: 1px solid black;
+    color: white;
+}
+
+    .btn-black:hover {
+        background-color: white;
+        color: black;
+    }
+
+header {
+    width: 100%;
+    top: 0;
+    right: 0;
+    left: 0;
+    padding: 28px 3.5vw 28px 7.5vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 0 8px 30px rgb(209, 209, 209);
+    position: relative;
+}
+
+    header .link {
+        font-size: 30px;
+        font-weight: 600;
+        cursor: pointer;
+        text-decoration: none;
+        color: black
+    }
+
+    header .navigation {
+        display: flex;
+        align-items: center;
+        column-gap: 24px;
+    }
+
+.title-section {
+    background-color: rgb(133 220 255);
+    padding-left: 11vw;
+    padding-right: 5vw;
+    display: flex;
+    justify-content: space-between;
+}
+
+    .title-section .title-container {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: center;
+        row-gap: 36px;
+        width: 50%;
+    }
+
+        .title-section .title-container .title {
+            font-size: 38px;
+        }
+
+        .title-section .title-container .description {
+            font-size: 20px;
+        }
+
+        .title-section .title-container .buttons-container {
+            display: flex;
+            align-items: center;
+            column-gap: 36px;
+            margin-top: 12px;
+        }
+
+        .title-section .title-container .buttons-container button {
+            padding: 18px 6rem;
+            font-size: 20px;
+            font-weight: 600;
+        }
+
+    .title-section .title-image {
+        width: 40%;
+    }
+
+.missions-section-1 {
+    padding: 32px 7.5vw 52px 7.5vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    row-gap: 42px;
+}
+
+    .missions-section-1 .title {
+        font-size: 30px;
+    }
+
+    .missions-section-1 .subtitle {
+        font-size: 24px;
+        letter-spacing: 2px;
+    }
+
+    .missions-section-1 .missions-container {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-top: 32px;
+    }
+
+        .missions-section-1 .missions-container .mission {
+            width: 28%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            row-gap: 34px;
+        }
+
+            .missions-section-1 .missions-container .mission i {
+                color: rgb(133 220 255);
+                font-size: 11rem;
+            }
+
+            .missions-section-1 .missions-container .mission .title {
+                font-size: 28px;
+            }
+
+            .missions-section-1 .missions-container .mission .description {
+                font-size: 18px;
+                letter-spacing: 2px;
+                line-height: 28px;
+            }
+
+.missions-section-2 {
+    background-color: rgb(133 220 255);
+    padding: 12vh 5vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 12vh;
+}
+
+    .missions-section-2 .title {
+        font-size: 40px;
+    }
+
+    .missions-section-2 .missions-list {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 65%;
+        column-gap: 8%;
+    }
+
+        .missions-section-2 .missions-list .missions-box {
+            width: 46%;
+            height: 20rem;
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            justify-content: space-between;
+            row-gap: 20px;
+        }
+
+            .missions-section-2 .missions-list .missions-box .mission {
+                display: flex;
+                align-items: flex-start;
+                width: 100%;
+                font-size: 28px;
+            }
+
+    .missions-section-2 button {
+        padding: 18px 6.5rem;
+        font-size: 18px;
+    }
+
+.animals-section {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    row-gap: 36px;
+    padding: 6vh 5.5vw;
+}
+
+    .animals-section .title {
+        font-size: 58px;
+        font-weight: 800;
+    }
+
+    .animals-section .description {
+        font-size: 24px;
+    }
+
+    .animals-section .animals-container {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+        .animals-section .animals-container .animal {
+            width: 19.5vw;
+            height: 18.5vw;
+            object-fit: cover;
+        }
+
+.about-us-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    row-gap: 32px;
+    padding: 6vh 12vw 18vh 12vw;
+}
+
+    .about-us-section .title {
+        font-size: 36px;
+        margin-bottom: 6px;
+    }
+
+    .about-us-section .info-box {
+        width: 100%;
+        border: 1px solid lightgrey;
+        text-align: start;
+        border-radius: 12px;
+    }
+
+        .about-us-section .info-box .heading-box {
+            width: 100%;
+            background-color: rgb(133 220 255);
+            padding: 32px 40px 28px 40px;
+            border-top-left-radius: 10px;
+            border-top-right-radius: 10px;
+        }
+
+            .about-us-section .info-box .heading-box .heading {
+                font-weight: 600;
+                font-size: 24px;
+            }
+
+        .about-us-section .info-box .body-box {
+            width: 100%;
+            background-color: white;
+            padding: 38px 40px 50px 40px;
+            border-bottom-left-radius: 10px;
+            border-bottom-right-radius: 10px;
+        }
+
+            .about-us-section .info-box .body-box .body {
+                font-weight: 600;
+                font-size: 22px;
+            }
+
+.contact-us-section {
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+    .contact-us-section img {
+        width: 50%;
+        object-fit: cover;
+    }
+
+    .contact-us-section .contact-us-form {
+        padding: 0 5.2vw;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        row-gap: 46px;
+    }
+
+        .contact-us-section .contact-us-form .title {
+            font-size: 38px;
+        }
+
+        .contact-us-section .contact-us-form .description {
+            font-size: 20px;
+        }
+
+        .contact-us-section .contact-us-form .email-input {
+            width: 50%;
+            padding: 20px 2rem;
+            border-radius: 10px;
+            border: 1px solid lightgrey;
+            font-weight: 700;
+            font-size: 22px;
+        }
+
+        .contact-us-section .contact-us-form button {
+            font-size: 20px;
+            font-weight: 600;
+            padding: 20px 6.1rem;
+            border-radius: 10px;
+        }
+
+footer {
+    position: relative;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 42px 5.5vw 42px 6.2vw;
+}
+
+    footer .icons-container {
+        display: flex;
+        align-items: center;
+        column-gap: 24px;
+    }
+
+        footer .icons-container i {
+            font-size: 38px;
+        }
+
+    footer .copyright {
+        font-size: 20px;
+        font-weight: 600;
+    }
